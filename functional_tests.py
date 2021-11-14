@@ -18,8 +18,6 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn("Cooking Project",self.browser.title)
         self.fail("Finish the test!")
 
-        self.assertIn('successfully',self.browser.title)
-        self.fail("Keep going...")
 
 
 if __name__ == '__main__':
